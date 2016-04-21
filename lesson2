@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<TITLE> THE COFFEE STOP </Title>
+
+	</HEAD><link rel="shortcut icon" type="image/jpeg" href="coffee.jpg"
+		<BODY>
+			<H1>Planners<hr></H1>
+				<p><DL> 
+					<LI> We 
+					<LI><A HREF ="Start_Place">Go to the  Contents</a> 
+					<LI><a href= "http://www.imgur.com">Happy </a>
+				</DL></p>
+			<H2>Venues
+			</H2>
+				<p>Our<B> clients</B> get to <strong>select</strong><br> <I>a variety</I><U>
+               </U> 
+               
+			<H3>Catering</H3>
+            <table style="width:auto">
+            <tr>
+            <td><img src="download.jpg" alt="Red wings give you bull"</p></td>
+            <td> <img src = "http://smallbites.andybellatti.com/wp-content/uploads/2009/08/176.jpg"  alt ="Some nonesense" </td>
+            </table> 
+            <p> 
+            <form> 
+            Name  :<input type="text" name="First Name" ><br/> 
+            Number:<input type="	" name ="Phone number" /><br>
+            Gender<input type="radio" name="sex" value="male" />Male
+           			.<input type="radio" name="sex" value="female" />Female<br>
+
+            </form>    
+		</BODY>
+</HTML>
+
+</html>
