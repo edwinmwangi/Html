@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' />
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='style.css' />
+    </head>
+    <body>
+        <h1>MARVEL vs DC</h1>
+
+      <ul style="color:#F00707;">
+        <li><a class="active"href="My hero.html">Home</a></li>
+        <li><a href="Calender.html">Calendar</a></li>
+        <li><a href="Merch.html">Merch</a></li>
+        <li><a href="Aboutus.html">About us</a><li>
+        <li><a href="comments.html">Interact</a><li>
+      </ul>
+
+      <style>
+      html, body {
+          font-family: 'Montserrat', sans-serif;
+      }
+      h1 {
+          border-left: 2px solid #00f28f;
+          font-size: 28px;
+          font-weight: 400;
+          padding-left: 20px;
+      }
+
+      .main {
+          margin-top: 80px;
+      }
+
+      form input {
+          background: #f0f0f0;
+
+          border: none;
+          border-left: 2px solid #fff;
+
+          font-size: 18px;
+          padding: 20px;
+          width: 100%;
+
+          transition: background 2s, border-left 2s;
+      }
+
+      form input:focus {
+          background: #fff;
+          border-left: 2px solid #000;
+          box-shadow: none;
+          outline: none;
+      }
+
+
+      .btn {
+          background: transparent;
+          border: none;
+
+          color: #00f28f;
+          cursor: pointer;
+
+          font-size: 18px;
+
+          padding: 20px 24px;
+
+          transition: background 2s, color 2s;
+      }
+
+      .btn:hover {
+          background: #00f28f;
+          color: #fff;
+      }
+
+      .comments {
+          margin-top: 20px;
+          list-style: none;
+          padding-left: 0px;
+      }
+
+
+      li {
+          padding-left: 20px;
+          border-left: 2px solid #000;
+          font-size: 18px;
+          margin: 0 0 36px;
+      }
+      </style>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <h1>geek out</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <form class="form">
+                        <div class="col-xs-8 col-md-10">
+                            <input id="comment" type="text" placeholder="share your thoughts">
+                        </div>
+                        <div class="col-xs-4 col-md-2">
+                            <button type="submit" class="btn">post</button>
+                        </div>
+                    </form>
+                </div>
+
+                <ul class="comments" id="comments">
+                    <li>Who's this guy's best DC match up?</li>
+                    <li>Can't wait for the next comic.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
